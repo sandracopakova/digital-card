@@ -3,6 +3,8 @@
   --darker: #d5d4d8;
   --primary: #b74459;
   --social-blue: #297fe5;
+  --text: #4a4e74;
+  --heading: #2b283a;
 }
 
 * {
@@ -16,12 +18,20 @@ body {
   font-weight: 400;
 }
 
+button {
+  border: none;
+}
+
 h3 {
   font-size: 16px;
+  color: var(--heading);
 }
 
 p {
   font-size: 12px;
+  line-height: 150%;
+  margin-top: 6px;
+  color: var(--text);
 }
 
 .wrapper {
@@ -44,6 +54,7 @@ main {
 
 section {
   margin-top: 25px;
+  text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 .info {
@@ -58,24 +69,47 @@ section {
   font-weight: 700;
   font-size: 25px;
   margin-top: 20px;
+  color: var(--heading);
 }
 
 .info--subheading {
   color: var(--primary);
   font-weight: 400;
   font-size: 14px;
+  color: var(--heading);
 }
 
-button {
-  width: 115px;
-  height: 34px;
-  border-radius: 2px;
+.info--portfolio {
+  font-size: 10.24px;
+  line-height: 150%;
+  text-decoration: none;
+  color: var(--text);
 }
 
-.info--buttons {
+.info-buttons {
   margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
+}
+
+.info-buttons__btn {
+  min-width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-buttons__btn--linkedin {
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  background-color: var(--social-blue);
+  color: white;
+}
+
+.info-buttons__btn svg {
+  margin-right: 5px;
 }
 
 footer {
