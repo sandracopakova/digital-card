@@ -8,8 +8,10 @@ export default function Info() {
       <h1 className="info--heading">Hana Čopáková</h1>
       <h2 className="info--subheading">Frontend Developer</h2>
       <p>web</p>
-      <button>Email</button>
-      <button>LinkedIn</button>
+      <div className="info--buttons">
+        <button className="info--email">Email</button>
+        <button className="info--linkedin">LinkedIn</button>
+      </div>
     </header>
   );
 }
