@@ -1,0 +1,32 @@
+:root {
+  --lighter: #f5f5f5;
+  --darker: #d5d4d8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #23252c;
+}
+
+.container {
+  width: 25%;
+  background-color: var(--lighter);
+  margin: auto;
+  border-radius: 0.5em;
+}
+
+footer {
+  background-color: var(--darker);
+  display: flex;
+  justify-content: center;
+  border-radius: 0 0 0.5em 0.5em; /*proč to nebere ten od containeru*/
+}
+
+footer > img {
+  width: 25px;
+  margin: 15px;
+}
