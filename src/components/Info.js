@@ -10,8 +10,8 @@ export default function Info() {
       <a href="https://bit.ly/317UyEQ" className="info--portfolio">
         portfolio
       </a>
-      <div className="info-buttons info-buttons__btn--email">
-        <a href="mailto: sandracopakova@gmail.com" className="info-buttons__btn">
+      <div className="info-buttons">
+        <a href="mailto: sandracopakova@gmail.com" className="info-buttons__btn info-buttons__btn--email">
           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none" viewBox="0 0 17 16">
             <path fill="#1E1F26" d="M2.102 4.707L8.5 7.906l6.398-3.199A1.6 1.6 0 0013.3 3.2H3.7a1.6 1.6 0 00-1.598 1.507z"></path>
             <path fill="#1E1F26" d="M14.9 6.494l-6.4 3.2-6.4-3.2V11.2a1.6 1.6 0 001.6 1.6h9.6a1.6 1.6 0 001.6-1.6V6.494z"></path>

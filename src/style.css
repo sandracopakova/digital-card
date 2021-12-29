@@ -84,9 +84,14 @@ section {
 }
 
 .info--portfolio {
+  padding: 8px;
   font-size: 10.24px;
   line-height: 150%;
   color: var(--text);
+}
+
+.info--portfolio:hover {
+  color: var(--primary);
 }
 
 .info-buttons {
@@ -106,10 +111,20 @@ section {
   font-size: 14px;
 }
 
+.info-buttons__btn:hover {
+  background-color: #d5d4d8;
+  transition: all 0.3s ease-in;
+}
+
 .info-buttons__btn--linkedin {
   box-shadow: 0px 1px 2px 0px #0000000d;
   background-color: #297fe5;
   color: white;
+}
+
+.info-buttons__btn--linkedin:hover {
+  background-color: #004182;
+  transition: all 0.3s ease-in;
 }
 
 .info-buttons__btn svg {
