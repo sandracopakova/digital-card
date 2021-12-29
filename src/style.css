@@ -17,13 +17,18 @@ body {
   background-color: var(--lighter);
   margin: auto;
   border-radius: 0.5em;
+  overflow: hidden;
+}
+
+section {
+  margin-top: 25px;
+  padding: 0 10%;
 }
 
 footer {
   background-color: var(--darker);
   display: flex;
   justify-content: center;
-  border-radius: 0 0 0.5em 0.5em; /*proč to nebere ten od containeru*/
 }
 
 footer > img {
