@@ -2,7 +2,6 @@
   --lighter: #f5f5f5;
   --darker: #d5d4d8;
   --primary: #b74459;
-  --social-blue: #297fe5;
   --text: #4a4e74;
   --heading: #2b283a;
 }
@@ -16,6 +15,11 @@ body {
   background-color: #23252c;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
 }
 
 button {
@@ -82,7 +86,6 @@ section {
 .info--portfolio {
   font-size: 10.24px;
   line-height: 150%;
-  text-decoration: none;
   color: var(--text);
 }
 
@@ -100,11 +103,12 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
 }
 
 .info-buttons__btn--linkedin {
   box-shadow: 0px 1px 2px 0px #0000000d;
-  background-color: var(--social-blue);
+  background-color: #297fe5;
   color: white;
 }
 
