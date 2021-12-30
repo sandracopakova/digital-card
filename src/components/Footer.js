@@ -7,10 +7,14 @@ import GitHub from "../images/GitHub.png";
 export default function Footer() {
   return (
     <footer>
-      <img src={Twitter} alt="twitter icon"/>
-      <img src={Facebook} alt="twitter icon"/>
-      <img src={Instagram} alt="twitter icon"/>
-      <img src={GitHub} alt="twitter icon"/>
+      <div className="footer-info">sandracopakova@gmail.com</div>
+      <a href="https://github.com/sandracopakova">
+        <img src={GitHub} alt="twitter icon" />
+      </a>
     </footer>
   );
 }
+
+/*<img src={Twitter} alt="twitter icon"/>
+      <img src={Facebook} alt="twitter icon"/>
+      <img src={Instagram} alt="twitter icon"/>*/
