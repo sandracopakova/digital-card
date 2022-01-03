@@ -4,13 +4,13 @@ import InfoFoto from "../images/foto.jpg";
 export default function Info() {
   return (
     <header className="info">
-      <img src={InfoFoto} className="info--foto" title="Do you wanna hire me? 🥺" alt="smiling Háňa in natural habitat" />
-      <h1 className="info--heading">Hana Čopáková</h1>
-      <small className="info--subheading">Frontend Developer</small>
-      <a href="https://bit.ly/317UyEQ" className="info--portfolio">
+      <img src={InfoFoto} className="info__foto" title="Do you wanna hire me? 🥺" alt="smiling Háňa in natural habitat" />
+      <h1 className="info__heading">Hana Čopáková</h1>
+      <small className="info__subheading">Frontend Developer</small>
+      <a href="https://bit.ly/317UyEQ" className="info__portfolio">
         portfolio
       </a>
-      <div className="info-buttons">
+      <div className="info__buttons info-buttons">
         <a href="mailto: sandracopakova@gmail.com" className="info-buttons__btn info-buttons__btn--email">
           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none" viewBox="0 0 17 16">
             <path fill="#1E1F26" d="M2.102 4.707L8.5 7.906l6.398-3.199A1.6 1.6 0 0013.3 3.2H3.7a1.6 1.6 0 00-1.598 1.507z"></path>

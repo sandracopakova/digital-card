@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="wrapper">
+    <div className="body-shell">
       <div className="container">
         <Info />
         <main>

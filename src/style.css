@@ -34,7 +34,7 @@ p {
   color: var(--text);
 }
 
-.wrapper {
+.body-shell {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,11 +63,11 @@ section {
   flex-direction: column;
 }
 
-.info--foto {
+.info__foto {
   width: 100%;
 }
 
-.info--heading {
+.info__heading {
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: 1.25rem;
@@ -75,20 +75,20 @@ section {
   margin: 1.25rem 0 0.6rem 0;
 }
 
-.info--subheading {
+.info__subheading {
   color: var(--primary);
   font-size: 0.8rem;
   margin: 0;
 }
 
-.info--portfolio {
+.info__portfolio {
   padding: 0.5rem;
   font-size: 0.75rem;
   line-height: 1.5;
   color: var(--text);
 }
 
-.info--portfolio:hover {
+.info__portfolio:hover {
   color: #87646b;
 }
 
@@ -147,7 +147,7 @@ section {
   justify-content: space-evenly;
 }
 
-.footer-info {
+.footer__info {
   display: flex;
   flex-direction: column;
   font-size: 0.75rem; /*12px*/
