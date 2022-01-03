@@ -6,7 +6,7 @@ export default function Info() {
     <header className="info">
       <img src={InfoFoto} className="info--foto" title="Do you wanna hire me? 🥺" alt="smiling Háňa in natural habitat" />
       <h1 className="info--heading">Hana Čopáková</h1>
-      <h2 className="info--subheading">Frontend Developer</h2>
+      <small className="info--subheading">Frontend Developer</small>
       <a href="https://bit.ly/317UyEQ" className="info--portfolio">
         portfolio
       </a>

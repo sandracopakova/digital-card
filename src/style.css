@@ -64,6 +64,8 @@ section {
 
 .info {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .info--foto {
@@ -80,7 +82,6 @@ section {
 
 .info--subheading {
   color: var(--primary);
-  font-weight: 400;
   font-size: 14px;
   margin: 0;
 }
