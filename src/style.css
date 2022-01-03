@@ -27,11 +27,6 @@ button {
   border: none;
 }
 
-h3 {
-  font-size: 16px;
-  color: var(--heading);
-}
-
 p {
   font-size: 12px;
   line-height: 150%;
@@ -133,6 +128,12 @@ section {
 
 .info-buttons__btn svg {
   margin-right: 5px;
+}
+
+.about-heading,
+.interests-heading {
+  font-size: 16px;
+  color: var(--heading);
 }
 
 .footer {
