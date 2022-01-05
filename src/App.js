@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="body-shell">
-      <div className="container">
+      <div className="card">
         <Info />
         <main>
           <About />
