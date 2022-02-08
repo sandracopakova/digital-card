@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__info">sandracopakova@gmail.com</div>
       <a href="https://github.com/sandracopakova">
-        <img src={github} alt="github icon" />
+        <img src={github} alt="Hana's GitHub" />
       </a>
     </footer>
   );
