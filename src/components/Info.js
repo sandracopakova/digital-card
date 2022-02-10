@@ -4,6 +4,13 @@ import InfoFoto from "../images/foto.jpg";
 export default function Info() {
   return (
     <header className="info">
+      <div class="toggler">
+        <p class="toggler__light">Light</p>
+        <div class="toggler__slider">
+          <div class="toggler__slider-circle"></div>
+        </div>
+        <p class="toggler__dark">Dark</p>
+      </div>
       <img src={InfoFoto} className="info__foto" title="Do you wanna hire me? 🥺" alt="smiling Háňa in natural habitat" />
       <h1 className="info__heading">Hana Čopáková</h1>
       <small className="info__subheading">Frontend Developer</small>

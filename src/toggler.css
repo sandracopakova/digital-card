@@ -1,0 +1,65 @@
+.toggler {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0.25rem;
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.toggler__slider {
+  width: 1.5rem;
+  min-height: 0.8rem;
+  background-color: #2b283a;
+  border-radius: 2rem;
+  margin-inline: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+.nav.dark .toggler__slider {
+  border-color: white;
+  background-color: #f5f5f5;
+}
+
+.toggler__slider-circle {
+  min-height: 0.8rem;
+  width: 0.8rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.nav.dark .toggler__slider-circle {
+  background-color: black;
+}
+
+.toggler__light {
+  color: #2b283a;
+}
+
+.nav.dark .toggler__light {
+  color: #918e9b;
+}
+
+.toggler__dark {
+  color: #d5d4d8;
+}
+
+.nav.dark .toggler__dark {
+  color: #ffffff;
+}
+
+.nav.dark .toggler__slider {
+  justify-content: flex-end;
+}
