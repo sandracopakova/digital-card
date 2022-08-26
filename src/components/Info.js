@@ -14,9 +14,9 @@ export default function Info() {
       <img src={InfoFoto} className="info__foto" title="Do you wanna hire me? 🥺" alt="smiling Háňa in natural habitat" />
       <h1 className="info__heading">Hana Čopáková</h1>
       <small className="info__subheading">Frontend Developer</small>
-      <a href="https://bit.ly/317UyEQ" className="info__portfolio">
+      {/* <a href="https://bit.ly/317UyEQ" className="info__portfolio">
         portfolio
-      </a>
+      </a> */}
       <div className="info__buttons info-buttons">
         <a href="mailto: sandracopakova@gmail.com" className="info-buttons__btn info-buttons__btn--email">
           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none" viewBox="0 0 17 16">
