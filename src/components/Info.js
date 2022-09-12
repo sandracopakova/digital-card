@@ -1,15 +1,15 @@
 import React from "react";
 import InfoFoto from "../images/foto.jpg";
 
-export default function Info() {
+export default function Info(props) {
   return (
     <header className="info">
-      <div class="toggler">
-        <p class="toggler__light">Light</p>
-        <div class="toggler__slider">
-          <div class="toggler__slider-circle"></div>
+      <div className="toggler">
+        <p className="toggler__light">Light</p>
+        <div className="toggler__slider" onClick={props.toggleDarkMode}>
+          <div className="toggler__slider-circle"></div>
         </div>
-        <p class="toggler__dark">Dark</p>
+        <p className="toggler__dark">Dark</p>
       </div>
       <img src={InfoFoto} className="info__foto" title="Do you wanna hire me? 🥺" alt="smiling Háňa in natural habitat" />
       <h1 className="info__heading">Hana Čopáková</h1>
