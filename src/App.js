@@ -8,7 +8,6 @@ export default function App() {
   const [darkMode, setDarkMode] = React.useState(true);
 
   function toggleDarkMode() {
-    console.log("I'm dark mode");
     setDarkMode(!darkMode);
   }
 
@@ -20,7 +19,7 @@ export default function App() {
           <About />
           <Interests />
         </main>
-        <Footer />
+        <Footer darkMode={darkMode} />
       </div>
     </div>
   );

@@ -4,6 +4,10 @@
   --primary: #b74459;
   --text: #4a4e74;
   --heading: #2b283a;
+  --darkModeLight: #1A1B21;
+  --darkModeDark: #161619;
+  --darkModeTextLight: #DCDCDC;
+  --darkModeTextDark: #938b9b;
 }
 
 *,
@@ -47,6 +51,10 @@ p {
   border-radius: 0.5em;
   overflow: hidden;
   position: relative;
+}
+
+.card--dark {
+  background-color: var(--darkModeLight);
 }
 
 main {
@@ -146,10 +154,18 @@ section {
   justify-content: space-evenly;
 }
 
+.footer--dark {
+  background-color: var(--darkModeDark);
+}
+
 .footer__info {
   font-size: 0.75rem;
   line-height: 1.5;
   color: var(--text);
+}
+
+.footer__info--dark {
+  color: var(--darkModeTextDark);
 }
 
 .footer > img {
