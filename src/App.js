@@ -13,11 +13,11 @@ export default function App() {
 
   return (
     <div className="body-shell">
-      <div className="card">
-        <Info toggleDarkMode={toggleDarkMode} />
+      <div className={`card ${darkMode ? "card--dark" : ""}`}>
+        <Info darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <main>
-          <About />
-          <Interests />
+          <About darkMode={darkMode} />
+          <Interests darkMode={darkMode} />
         </main>
         <Footer darkMode={darkMode} />
       </div>

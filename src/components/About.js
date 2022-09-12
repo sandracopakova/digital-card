@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function About() {
+export default function About(props) {
   return (
-    <section className="about">
-      <h2 className="about-heading">About</h2>
-      <p>I am a junior frontend developer and am always looking for new things to learn. Now I'm interested in React.</p>
+    <section className="side">
+      <h2 className={`side__heading ${props.darkMode ? "side__heading--dark" : ""}`}>About</h2>
+      <p className={props.darkMode ? "side__text--dark" : ""}>I am a junior frontend developer and am always looking for new things to learn. Now I'm interested in React.</p>
     </section>
   );
 }

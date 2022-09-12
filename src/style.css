@@ -83,6 +83,10 @@ section {
   margin: 1.25rem 0 0.6rem 0;
 }
 
+.info__heading--dark {
+  color: white;
+}
+
 .info__subheading {
   color: var(--primary);
   font-size: 1rem;
@@ -107,6 +111,7 @@ section {
 }
 
 .info-buttons__btn {
+  background-color: white;
   min-width: 116px;
   padding: 0.5rem;
   border-radius: 6px;
@@ -125,11 +130,13 @@ section {
 
 .info-buttons__btn--linkedin {
   background-color: #297fe5;
+  border: 1px solid #297fe5;
   color: white;
 }
 
 .info-buttons__btn--linkedin:hover {
   background-color: #004182;
+  border: 1px solid #004182;
   transition: all 0.3s ease-in;
 }
 
@@ -137,11 +144,18 @@ section {
   margin-right: 0.25rem;
 }
 
-.about-heading,
-.interests-heading {
+.side__heading {
   font-size: 1rem;
   color: var(--heading);
   margin: 0;
+}
+
+.side__heading--dark {
+  color: white;
+}
+
+.side__text--dark {
+  color: var(--darkModeTextLight);
 }
 
 .footer {

@@ -12,7 +12,7 @@ export default function Info(props) {
         <p className="toggler__dark">Dark</p>
       </div>
       <img src={InfoFoto} className="info__foto" title="Do you wanna hire me? 🥺" alt="smiling Háňa in natural habitat" />
-      <h1 className="info__heading">Hana Čopáková</h1>
+      <h1 className={`info__heading ${props.darkMode ? "info__heading--dark" : ""}`}>Hana Čopáková</h1>
       <small className="info__subheading">Frontend Developer</small>
       {/* <a href="https://bit.ly/317UyEQ" className="info__portfolio">
         portfolio
