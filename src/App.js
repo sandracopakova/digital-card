@@ -5,7 +5,7 @@ import Interests from "./components/Interests";
 import Footer from "./components/Footer";
 
 export default function App() {
-  const [darkMode, setDarkMode] = React.useState(true);
+  const [darkMode, setDarkMode] = React.useState(false);
 
   function toggleDarkMode() {
     setDarkMode(!darkMode);
